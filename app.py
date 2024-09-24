@@ -46,7 +46,7 @@ def generate_questions(edu_prompt):
     return questions.strip().split('\n')
 
 # user interface
-st.title("Hello 👋 Welcome to EasyEd!")
+st.title("Hello 👋 Welcome to AI Career-Counsellor!")
 
 name = st.text_input("Enter your name")
 if name:
