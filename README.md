@@ -1,4 +1,4 @@
 # chatbot-langchain
 This GenAI based Application helps you for you career counselling.
 
-**https://your-careerguide.streamlit.app/**
+**https://ai-career-counsellor.streamlit.app/**
