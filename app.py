@@ -10,17 +10,6 @@ OPENAI_API_KEY = st.secrets["key"]
 
 llm = OpenAI(openai_api_key=OPENAI_API_KEY, temperature=0.75)
 
-# BACKEND_URL = 'http://localhost:5000'
-
-# def get_history(username):
-#     response = requests.post(f'{BACKEND_URL}/get_history', json={'username': username})
-#     return response.json()
-
-# def add_message(username, message):
-#     response = requests.post(f'{BACKEND_URL}/add_message', json={'username': username, 'message': message})
-#     return response.json()
-
-
 # for conversation history
 if "conversation" not in st.session_state:
     st.session_state.conversation = []
